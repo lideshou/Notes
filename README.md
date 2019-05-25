@@ -18,3 +18,5 @@
 =>block:此元素将被显示为块级元素，元素前后带有换行符<br>
 =>inline:默认。此元素会被显示为内联元素，元素前后没有换行符<br>
 =>inline-block:行内块元素
+## 实现以一块图片为背景图片透明一个div
+透明的div需要加position:absolute;而透明div外层的div要加上position:relative; 才能让透明div相对于外层div去定位，设置透明区域background:rgba(0,0,0,0.6)。

@@ -10,3 +10,6 @@
 =>margin为3个时，margin:上   左=右   下;<br>
 =>margin为2个时，margin:上=下   左=右;<br>
 =>margin为1个时，margin:上=右=下=左;
+## visibility:hidden与display:none的区别
+=>visibility:hidden将元素隐藏，但在网页所占的空间位置依然存在。<br>
+=>display:none将元素的显示设置为无，在网页不占用任何空间。

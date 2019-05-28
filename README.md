@@ -19,4 +19,6 @@
 =>inline:默认。此元素会被显示为内联元素，元素前后没有换行符<br>
 =>inline-block:行内块元素
 ## 实现以一块图片为背景图片透明一个div
-透明的div需要加position:absolute;而透明div外层的div要加上position:relative; 才能让透明div相对于外层div去定位，设置透明区域background:rgba(0,0,0,0.6)。
+透明的div需要加position:absolute;而透明div外层的div要加上position:relative; 才能让透明div相对于外层div去定位，设置透明区域background:rgba(0,0,0,0.6)。并且将图片上层的divz-index属性的值调高。
+## z-index
+=>可被用于将在一个元素放置于另一元素之后.默认的是z-index是0，z-index-1拥有更低的优先级。

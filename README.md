@@ -31,3 +31,17 @@
   2.get提交数据有大小限制，而post没有<br>
   3.get产生一个tcp数据包，post产生两个tcp数据包<br>
   4.最后，get效率比较高
+## bcrypthash加密函数参数个数版本发生变化 参照如下
+=>//密码hash加密
+                bcrybtNodejs.genSalt(10, function(err, salt) {
+                    bcrybtNodejs.hash(newUser.password, salt, null,function(err, hash){
+                        //如果有错误则抛出异常
+                        if(err)  throw err;
+
+                        //没有错误的话将加密后的密码赋值给...
+                        newUser.password=hash;
+
+                        newUser.save()
+                            .then(user=>res.json(user))
+                            .catch(err=>console.log(err))
+                    });

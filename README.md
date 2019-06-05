@@ -26,3 +26,8 @@
 =>是因为全局安装的路径不对，可以将全局安装的路径（F:\nodejs\node_global）添加到系统变量中
 ## webpack四个核心概念
 =>entry（入口）、output（输出）、loader（依赖加载）、plugin（插件）
+## get和post方法的区别
+=>1.get把请求的数据放在URL上，post把数据放在HTTP的包体内（requrest body）<br>
+  2.get提交数据有大小限制，而post没有<br>
+  3.get产生一个tcp数据包，post产生两个tcp数据包<br>
+  4.最后，get效率比较高

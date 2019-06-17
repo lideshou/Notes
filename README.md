@@ -54,4 +54,4 @@
 1.display: inline-block;vertical-align: middle;<br>
 2.父元素display: flex;flex-direction: row;子元素align-self: center;<br>
 3.父元素display: table;子元素display: table-cell;vertical-align: middle;<br>
-4.设置行高，该元素的行高和其父元素的高度保持一致
+4.设置行高，该元素的行高和其父元素的高度保持一致.

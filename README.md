@@ -45,3 +45,13 @@
                             .then(user=>res.json(user))
                             .catch(err=>console.log(err))
                     });
+## 实现水平居中常用的几种方法
+1.margin: 0 auto;<br>
+2.text-align: center;<br>
+3.父元素display: flex;flex-direction: column;子元素align-self: center;<br>
+4.父元素display: table-cell;子元素margin-left取值剩余宽度的一半(或者父元素position: absolute;)<br>
+## 实现垂直居中常用的几种方法
+1.display: inline-block;vertical-align: middle;<br>
+2.父元素display: flex;flex-direction: row;子元素align-self: center;<br>
+3.父元素display: table;子元素display: table-cell;vertical-align: middle;<br>
+4.设置行高，该元素的行高和其父元素的高度保持一致

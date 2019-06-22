@@ -78,3 +78,5 @@ localstotage和sessionstorage不会吧数据传输到服务端，只保存在本
 闭包是指有权访问另一个函数作用域的变量的函数<br>
 封闭性：外部无法访问闭包北部的数据<br>
 持久性：函数被调用后，闭包结构依然存在。
+## 在 javascript 中，用于阻止默认事件的默认操作的方法是
+preventDefault()

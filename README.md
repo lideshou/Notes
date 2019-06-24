@@ -110,3 +110,6 @@ preventDefault()
 1.会增加服务器的请求<br>
 2.代码复杂，无法被搜索引擎解读。<br>
 3.不易管理
+## $(document).ready和window.onload的区别
+$(document).ready()在DOM树加载完之后所有元素加载完成之前就可以执行了<br>
+window.onload()需要在所有元素渲染完成后再执行

@@ -113,3 +113,5 @@ preventDefault()
 ## $(document).ready和window.onload的区别
 $(document).ready()在DOM树加载完之后所有元素加载完成之前就可以执行了<br>
 window.onload()需要在所有元素渲染完成后再执行
+## 闭包是什么，为什么要使用闭包？
+一言以蔽之，闭包就是可以调用其他函数作用域变量的函数，闭包的使用可以使变量一直存在在内存中。

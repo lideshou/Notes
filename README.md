@@ -80,3 +80,33 @@ localstotage和sessionstorage不会吧数据传输到服务端，只保存在本
 持久性：函数被调用后，闭包结构依然存在。
 ## 在 javascript 中，用于阻止默认事件的默认操作的方法是
 preventDefault()
+## link和@import的区别
+1.link是由HTML提供，@import是由CSS样式提供<br>
+2.link不仅能引入样式，比如定义RSS，定义rel连接属性等<br>
+3.link引入的样式会在页面加载的时候同时加载，而@import引入的则会在页面加载完后再加载<br>
+4.兼容性有一定的差别<br>
+5.dom可以控制link但是不能控制@import
+## HTML5新特性有哪些 删除了哪些元素？又如何处理兼容性的问题呢？如何区分HTML5和HTML！
+1.语义化<br>
+2.本地存储<br>
+3.设备兼容<br>
+4.连接特性，能够帮助我们将数据推送到客户端<br>
+5.网页多媒体特性<br>
+6.三维、图形及特效特性<br>
+7.性能与集成特性<br>
+8.css3特性<br>
+### 移除的元素
+纯表现的元素：basefont，big，center，font,s，strike，tt，u<br>
+对可用性产生负面影响的元素：frame，frameset，noframes<br>
+1.使用html5shim框架<br>
+2.IE8/IE7/IE6支持通过document.方法产生的标签,利用这一特性让这些浏览器支持HTML5新标签。
+### 区分
+用doctype来区分
+## iframe的优缺点
+### 优点
+1.iframe能够原封不动的把嵌入的网页展现出来。<br>
+2.可以增加代码的可重用.<br>
+### 缺点
+1.会增加服务器的请求<br>
+2.代码复杂，无法被搜索引擎解读。<br>
+3.不易管理

@@ -68,8 +68,8 @@ localstorage只有主动删除数据才会消失<br>
 sessionstorage在窗口关闭的时候数据自动删除<br>
 cookies可以设置数据的有效时期<br>
 3.数据与服务器端的交互方式<br>
-cookie会把数据传输到服务端，服务器也可以写cookies到客户端<br>
-localstotage和sessionstorage不会吧数据传输到服务端，只保存在本地
+cookie会把数据传输到服务端，服务端也可以写cookies到客户端<br>
+localstotage和sessionstorage不会把数据传输到服务端，只保存在本地
 ## 清除浮动的方式以及优缺点<br>
 1.clear:both简单，浏览器兼容性好，但容易造成页面混乱<br>
 2.overflow:hidden使用简单，但是超出的尺寸会被隐藏<br>

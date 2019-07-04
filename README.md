@@ -128,3 +128,11 @@ css预编译器的一种，可嵌套型，可重用性高，有函数功能。
 restful其实就是一套编写接口的协议
 ## 谷歌浏览器默认最小字体是多少？
 12px
+## postion常用属性值
+fixed:生成绝对定位元素，相对于浏览器窗口进行定位，元素位置通过“left”，“right”，“top”，“bottom”属性进行规定<br>
+absolute:生成绝对定位元素，相对于父元素进行定位，元素位置通过“left”，“right”，“top”，“bottom”属性进行规定<br>
+relative:生成相对定位定位元素，相对于正常位置进行定位<br>
+static:默认值，没有生成定位<br>
+inherit:从父元素继承postion的值
+## letterspace属性
+表示该元素的字母间距

@@ -135,4 +135,4 @@ relative:生成相对定位定位元素，相对于正常位置进行定位<br>
 static:默认值，没有生成定位<br>
 inherit:从父元素继承postion的值
 ## letterspace属性
-表示该元素的字母间距
+表示该元素的字母间距.

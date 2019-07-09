@@ -136,3 +136,5 @@ static:默认值，没有生成定位<br>
 inherit:从父元素继承postion的值
 ## letterspace属性
 表示该元素的字母间距.
+## 关于小程序中var that=this;的作用
+因为this所指的当前对象，所以this对象在程序中随时会改变，而var  that = this之后，that不会改变，仍然指向之前的this，这样就不会找不到原来的对象（个人理解）

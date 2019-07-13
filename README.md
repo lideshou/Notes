@@ -138,7 +138,7 @@ inherit:从父元素继承postion的值
 表示该元素的字母间距.
 ## 关于小程序中var that=this;的作用
 因为this所指的当前对象，所以this对象在程序中随时会改变，而var  that = this之后，that不会改变，仍然指向之前的this，这样就不会找不到原来的对象（个人理解）.
-## 在bootstrap中，响应式布局（栅格布局）lg,md,sm,xs分别对应的像素宽度是多少？
+## 在bootstrap中，响应式布局（栅格布局）lg,md,sm,xs分别对应的像素宽度是多少？！
 * col-xs-  超小屏幕 手机 (<768px)
 * col-sm-  小屏幕 平板 (≥768px)
 * col-md-  中等屏幕 桌面显示器 (≥992px)

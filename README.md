@@ -12,7 +12,7 @@
 =>margin为1个时，margin:上=右=下=左;
 ## visibility:hidden与display:none的区别
 =>visibility:hidden将元素隐藏，但在网页所占的空间位置依然存在。<br>
-=>display:none将元素的显示设置为无，在网页不占用任何空间。
+=>display:none将元素的显示设置为无，在网页不占用任何空间.
 ## display常用属性值
 =>none:此元素不会被显示<br>
 =>block:此元素将被显示为块级元素，元素前后带有换行符<br>

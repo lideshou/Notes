@@ -24,7 +24,7 @@
 =>可被用于将在一个元素放置于另一元素之后.默认的是z-index是0，z-index-1拥有更低的优先级。
 ## nodemon安装后但是无法使用
 =>是因为全局安装的路径不对，可以将全局安装的路径（F:\nodejs\node_global）添加到系统变量中
-## webpack四个核心概念
+## webpack四个核心概念。
 =>entry（入口）、output（输出）、loader（依赖加载）、plugin（插件）
 ## get和post方法的区别
 =>1.get把请求的数据放在URL上，post把数据放在HTTP的包体内（request body）<br>

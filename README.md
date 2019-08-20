@@ -145,3 +145,6 @@ inherit:从父元素继承postion的值
 * col-lg-  大屏幕 大桌面显示器 (≥1200px)
 ## ES6数组去重
 arr=new Set(arr);
+## jQuery中append()与prepend()的区别
+append() - 在被选元素的结尾插入内容<br>
+prepend() - 在被选元素的开始插入内容

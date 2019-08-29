@@ -148,3 +148,5 @@ arr=new Set(arr);
 ## jQuery中append()与prepend()的区别
 append() - 在被选元素的结尾插入内容<br>
 prepend() - 在被选元素的开始插入内容
+## querySelector(API)
+元素向下查询，返回一个元素

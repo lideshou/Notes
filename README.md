@@ -154,3 +154,13 @@ prepend() - 在被选元素的开始插入内容
 失去焦点的时候触发
 ## jQuery.serialize()方法
 对表单的值进行序列化排序，&连接。
+## window.history用法
+history.back(-1):直接返回当前页的上一页，数据全部消息，是个新页面<br>
+history.go(-1):也是返回当前页的上一页，不过表单里的数据全部还在 <br>
+history.back(1) 前进 <br>
+history.back(-1) 后退<br>
+window.location.reload();    //刷新  <br>
+window.history.go(1);         //前进  <br>
+window.history.go(-1);        //返回+刷新  <br>
+window.history.forward();  //前进  <br>
+window.history.back();       //返回

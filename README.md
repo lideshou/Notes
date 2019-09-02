@@ -164,3 +164,5 @@ window.history.go(1);         //前进  <br>
 window.history.go(-1);        //返回+刷新  <br>
 window.history.forward();  //前进  <br>
 window.history.back();       //返回
+## Vue实现遮罩层弹出的时候禁用滑动事件
+在遮罩层加上属性@touchmove.prevent

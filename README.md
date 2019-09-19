@@ -172,4 +172,4 @@ window.history.back();       //返回
   overflow-y: scroll;<br>
 	touch-action: pan-y;<br>
 	-webkit-overflow-scrolling: touch;<br>
-}
+}.

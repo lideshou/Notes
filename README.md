@@ -173,3 +173,5 @@ window.history.back();       //返回
 	touch-action: pan-y;<br>
 	-webkit-overflow-scrolling: touch;<br>
 }.
+## 关于动态生成的li标签onclick事件失效
+使用live方法=>.live("click",function).

@@ -174,6 +174,6 @@ window.history.back();       //返回
 	-webkit-overflow-scrolling: touch;<br>
 }.
 ## 关于动态生成的li标签onclick事件失效
-使用live方法=>.live("click",function).
+使用live方法=>.live("click",function)
 ## 关于接口返回的数据解析
 var jsondata = $.parseJSON(res);

@@ -166,7 +166,7 @@ window.history.forward();  //前进  <br>
 window.history.back();       //返回
 ## Vue实现遮罩层弹出的时候禁用滑动事件
 在遮罩层加上属性@touchmove.prevent
-## 解决Vue在ios端滚动不流畅的问题
+## 解决Vue在ios端滚动不流畅的问题.
 在滚动列表的Listdiv增加css属性-webkit-overflow-scrolling: touch;<br>
 .box{<br>
   overflow-y: scroll;<br>
